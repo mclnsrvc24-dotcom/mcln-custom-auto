@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Instagram, Facebook, Twitter, Youtube } from 'lucide-react'
 
 const serviceLinks = [
@@ -34,14 +35,15 @@ export default function Footer() {
 
           {/* Brand — spans 2 cols on lg */}
           <div className="lg:col-span-2">
-            <Link href="/" className="inline-flex items-baseline gap-1 mb-5">
-              <span className="font-display text-3xl font-bold text-white tracking-wider">
-                Mc<span className="text-red-500">LN</span>
-              </span>
+            <Link href="/" className="inline-flex mb-5">
+              <Image
+                src="/logo.png"
+                alt="McLN Custom Auto"
+                width={180}
+                height={68}
+                className="object-contain"
+              />
             </Link>
-            <p className="text-[10px] text-neutral-600 tracking-[0.35em] uppercase font-body mb-5">
-              Custom Auto
-            </p>
             <p className="text-neutral-500 text-sm leading-relaxed font-body max-w-xs mb-8">
               Luxury automotive detailing, ceramic coating, and custom
               aesthetics for discerning vehicle owners. Precision in every

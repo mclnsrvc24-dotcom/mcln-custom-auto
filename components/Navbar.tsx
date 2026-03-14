@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Menu, X, ChevronRight } from 'lucide-react'
 
 const navLinks = [
@@ -31,20 +32,15 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="flex items-baseline gap-0.5">
-            <span className="font-display text-2xl font-bold tracking-wider text-white">
-              Mc
-            </span>
-            <span className="font-display text-2xl font-bold tracking-wider text-red-500">
-              LN
-            </span>
-          </div>
-          <div className="hidden sm:block">
-            <span className="text-[10px] text-neutral-500 tracking-[0.35em] uppercase font-body block leading-none">
-              Custom Auto
-            </span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="McLN Custom Auto"
+            width={160}
+            height={60}
+            className="object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav Links */}
