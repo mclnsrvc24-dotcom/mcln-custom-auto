@@ -115,7 +115,7 @@ export default function Services() {
           <div className="hidden lg:block bg-neutral-950 p-10 relative">
             <div className="h-full flex flex-col justify-end">
               <p className="text-neutral-700 text-xs tracking-widest uppercase font-body mb-3">
-                Don't see what you need?
+                Don&apos;t see what you need?
               </p>
               <a
                 href="#contact"

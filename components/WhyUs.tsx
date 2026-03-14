@@ -62,22 +62,22 @@ export default function WhyUs() {
               <span className="text-red-500">McLN?</span>
             </h2>
             <p className="text-neutral-400 text-base leading-relaxed font-body mb-8">
-              We don't just clean cars. We restore them to peak condition and
+              We don&apos;t just clean cars. We restore them to peak condition and
               protect that investment for years to come. Our shop is built on
               a foundation of precision, professionalism, and an unwavering
               passion for the craft.
             </p>
             <p className="text-neutral-400 text-base leading-relaxed font-body mb-10">
               Whether you drive a daily driver or an exotic, every vehicle
-              receives the same elite-level treatment. That's the McLN
+              receives the same elite-level treatment. That&apos;s the McLN
               promise.
             </p>
 
             {/* Quote */}
             <div className="flex items-start gap-4 pl-4 border-l-2 border-red-600">
               <p className="text-neutral-300 text-sm italic font-body leading-relaxed">
-                "The difference between ordinary and extraordinary is that
-                little extra — and we bring that to every single job."
+                &ldquo;The difference between ordinary and extraordinary is that
+                little extra — and we bring that to every single job.&rdquo;
               </p>
             </div>
           </div>
