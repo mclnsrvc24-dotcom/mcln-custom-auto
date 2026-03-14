@@ -52,7 +52,7 @@ export default function BookingCTA() {
             <span className="text-red-500">Transformation</span>
           </h2>
           <p className="text-neutral-400 text-base font-body max-w-md mx-auto leading-relaxed">
-            Ready to elevate your vehicle? Fill out the form and we'll reach
+            Ready to elevate your vehicle? Fill out the form and we&apos;ll reach
             out within 24 hours to confirm your appointment.
           </p>
         </div>
